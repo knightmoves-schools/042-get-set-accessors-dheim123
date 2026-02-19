@@ -1,10 +1,11 @@
 ﻿namespace knightmoves;
 
 public class Organization{
-   private string Name;
+   private string Name { get; };
 
    public Organization(string name){
-      set { Name = name; }
+      Name = name;
    }
 
 }
+
